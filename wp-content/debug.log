@@ -1,0 +1,46 @@
+[06-Oct-2026 15:14:49 UTC] PHP Fatal error:  Uncaught TypeError: array_replace_recursive(): Argument #2 must be of type array, bool given in C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\plugins\luxe-cost-calculator\inc\rates.php:213
+Stack trace:
+#0 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\plugins\luxe-cost-calculator\inc\rates.php(213): array_replace_recursive(Array, false)
+#1 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\plugins\luxe-cost-calculator\luxe-cost-calculator.php(50): lcc_get_all_rates()
+#2 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\class-wp-hook.php(341): lcc_frontend_assets('')
+#3 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#5 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\script-loader.php(2329): do_action('wp_enqueue_scri...')
+#6 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\class-wp-hook.php(341): wp_enqueue_scripts('')
+#7 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#9 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\general-template.php(3208): do_action('wp_head')
+#10 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\themes\luxe-interior-theme\header.php(8): wp_head()
+#11 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\template.php(814): require_once('C:\\Users\\LAP AI...')
+#12 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\template.php(749): load_template('C:\\Users\\LAP AI...', true, Array)
+#13 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#14 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\themes\luxe-interior-theme\page.php(1): get_header()
+#15 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\template-loader.php(132): include('C:\\Users\\LAP AI...')
+#16 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-blog-header.php(19): require_once('C:\\Users\\LAP AI...')
+#17 C:\Users\LAP AID\Documents\HRM\nestinterior\index.php(17): require('C:\\Users\\LAP AI...')
+#18 C:\Users\LAP AID\.gemini\antigravity\brain\8260dd7a-be5c-48d4-ac86-f66a12703bd2\scratch\debug_cost_calc.php(10): require_once('C:\\Users\\LAP AI...')
+#19 {main}
+  thrown in C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\plugins\luxe-cost-calculator\inc\rates.php on line 213
+[06-Oct-2026 15:15:22 UTC] PHP Fatal error:  Uncaught TypeError: array_replace_recursive(): Argument #2 must be of type array, bool given in C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\plugins\luxe-cost-calculator\inc\rates.php:213
+Stack trace:
+#0 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\plugins\luxe-cost-calculator\inc\rates.php(213): array_replace_recursive(Array, false)
+#1 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\plugins\luxe-cost-calculator\luxe-cost-calculator.php(50): lcc_get_all_rates()
+#2 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\class-wp-hook.php(341): lcc_frontend_assets('')
+#3 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#5 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\script-loader.php(2329): do_action('wp_enqueue_scri...')
+#6 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\class-wp-hook.php(341): wp_enqueue_scripts('')
+#7 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#9 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\general-template.php(3208): do_action('wp_head')
+#10 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\themes\luxe-interior-theme\header.php(8): wp_head()
+#11 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\template.php(814): require_once('C:\\Users\\LAP AI...')
+#12 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\template.php(749): load_template('C:\\Users\\LAP AI...', true, Array)
+#13 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#14 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\themes\luxe-interior-theme\page.php(1): get_header()
+#15 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-includes\template-loader.php(132): include('C:\\Users\\LAP AI...')
+#16 C:\Users\LAP AID\Documents\HRM\nestinterior\wp-blog-header.php(19): require_once('C:\\Users\\LAP AI...')
+#17 C:\Users\LAP AID\Documents\HRM\nestinterior\index.php(17): require('C:\\Users\\LAP AI...')
+#18 C:\Users\LAP AID\.gemini\antigravity\brain\8260dd7a-be5c-48d4-ac86-f66a12703bd2\scratch\debug_cost_calc2.php(22): require_once('C:\\Users\\LAP AI...')
+#19 {main}
+  thrown in C:\Users\LAP AID\Documents\HRM\nestinterior\wp-content\plugins\luxe-cost-calculator\inc\rates.php on line 213

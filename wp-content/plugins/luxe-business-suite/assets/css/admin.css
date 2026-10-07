@@ -1,0 +1,43 @@
+/* ============================================================
+   Luxe Business Suite — Admin CSS v1.0.0
+============================================================ */
+.lbs-field { margin-bottom: 1rem; }
+.lbs-label {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #3c434a;
+    margin-bottom: 5px;
+}
+.lbs-hint { font-size: 11px; color: #757575; margin: 3px 0 0; line-height: 1.5; }
+.lbs-input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #dcdcde;
+    border-radius: 3px;
+    padding: 6px 8px;
+    font-size: 13px;
+    color: #2c3338;
+    background: #fff;
+}
+.lbs-input:focus { border-color: #2271b1; box-shadow: 0 0 0 1px #2271b1; outline: none; }
+.lbs-checkbox { display: flex; align-items: center; gap: 6px; font-size: 13px; cursor: pointer; }
+.lbs-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1rem; }
+.lbs-meta-grid .lbs-field:nth-child(odd) { grid-column: 1; }
+.lbs-meta-grid .lbs-field:nth-child(even) { grid-column: 2; }
+.lbs-meta-grid textarea.lbs-input { grid-column: 1 / -1; }
+
+/* Pipeline status badges on list table */
+.lbs-status-new           { background: #dbeafe; color: #1e40af; }
+.lbs-status-qualified     { background: #d1fae5; color: #065f46; }
+.lbs-status-proposal-sent { background: #fef3c7; color: #92400e; }
+.lbs-status-won           { background: #ede9fe; color: #4c1d95; }
+.lbs-status-lost          { background: #fee2e2; color: #991b1b; }
+.lbs-status-on-hold       { background: #f3f4f6; color: #374151; }
+span[class^="lbs-status-"] { padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: 600; }
+
+/* Settings page */
+.lbs-settings-wrap h1 { font-size: 22px; }
+.lbs-module-table .description { color: #757575; margin-top: 3px; font-size: 12px; }
